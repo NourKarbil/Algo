@@ -9,16 +9,13 @@ int premier_naive(int n){
             if (i%j==0){
                 m=m+1;
             }
-
         }
-        if (m==2){
-            c=c+1;
-        }
+        if(m==2){
+             c=c+1;}
         m=0;
-
-
-    }
-   return c;
+        }
+       
+       return c;
 }
 int premier_optimized(int n) {
     int count = 0;
@@ -43,3 +40,4 @@ int premier_optimized(int n) {
 
     free(is_prime);
     return count;
+
