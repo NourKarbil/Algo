@@ -33,11 +33,11 @@ int premier_optimized(int n) {
         }
     }
     for (int i = 2; i <= n; i++) {
-        if (is_prime[i]) count++;
+        if (is_prime[i]==1) count++;
     }
     free(is_prime);
     return count;
 
-    free(is_prime);
-    return count;
+
+
 
