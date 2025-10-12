@@ -37,6 +37,8 @@ int premier_optimized(int n) {
     }
     free(is_prime);
     return count;
+}
+
 
 
 
