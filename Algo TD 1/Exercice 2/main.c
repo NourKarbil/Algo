@@ -3,7 +3,7 @@
 #include "Premier.h"  
 
 int main() {
-    int n = 100;  
+    int n = 10000;  
     int result;
 
     clock_t start, end;
@@ -31,3 +31,4 @@ int main() {
     printf("Temps CPU (optimise) : %.6f secondes\n", cpu_time_used);
     return 0;
 }
+
